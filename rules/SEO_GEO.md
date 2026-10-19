@@ -30,6 +30,8 @@ SEO — видимость в Яндексе и Google. GEO (AEO, AI SEO) — ч
 
 ## Технический минимум при вёрстке
 
+В стеке по умолчанию (`STACK.md`, Next.js) всё ниже делается штатными средствами: `metadata`, `app/sitemap.ts`, `app/robots.ts`, `opengraph-image` или файл в `public/`, `public/llms.txt`; страницы — серверные компоненты, чтобы текст был в HTML.
+
 - `<html lang="ru">` (или язык сайта), `<meta charset>`, `viewport`
 - Уникальный `<title>` до ~60 символов (главный запрос ближе к началу + название) и `meta description` до ~160 символов с предложением и действием
 - Один H1 на страницу, логичная иерархия H2/H3, семантические теги: `header`, `nav`, `main`, `section`, `footer`, `address` для контактов
